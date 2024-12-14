@@ -3,7 +3,7 @@ const multer = require("multer");
 const authMiddleware = require("../middlewares/AuthMiddleware");
 const UploadImage = require("../controllers/GenericController");
 const routes = express.Router();
-const AuthenticationDataValidator = require("../dataValidators/AuthenticationDataValidator");
+const AuthenticationDataValidator = require("../dataValidators/AuthenicationDataValidator");
 const {
   loginUser,
   getUsersList,
@@ -78,7 +78,7 @@ const {
   SingleNotification,
   deleteNotification,
 } = require("../controllers/NotificationController");
-const NotificationDataValidator = require("../dataValidators/NotificationDataValidator");
+const NotificationDataValidator = require("../dataValidators/NotificationDatavalidators");
 const {
   getGoalAchievementList,
   addGoalAchievement,
@@ -86,7 +86,7 @@ const {
   SingleGoalAchievement,
   updateGoalAchievement,
 } = require("../controllers/GoalAchievementController");
-const GoalAchievementDataValidator = require("../dataValidators/GoalAchievementDataValidator");
+const GoalAchievementDataValidator = require("../dataValidators/GoalAcheivementDatavalidators");
 const ContactDataValidator = require("../dataValidators/contactDataValidators");
 const {
   addContact,
@@ -100,7 +100,7 @@ const {
   addComment,
   getSingleNews,
 } = require("../controllers/NewsController");
-const NewsDataValidator = require("../dataValidators/NewsDataValidator");
+const NewsDataValidator = require("../dataValidators/NewsDataValidators");
 const roleMiddleware = require("../middlewares/RoleMiddleware");
 const WorkoutCategoryDataValidator = require("../dataValidators/WorkoutCategoryDataValidator");
 const {
