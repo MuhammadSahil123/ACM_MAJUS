@@ -2,12 +2,12 @@
 import React from 'react';
 
 const services = [
-  { img: "src/assets/images/s-1.jpg", title: "CROSSFIT TRAINING" },
-  { img: "src/assets/images/s-2.jpg", title: "FITNESS" },
-  { img: "src/assets/images/s-3.jpg", title: "DYNAMIC STRENGTH TRAINING" },
-  { img: "src/assets/images/s-4.jpg", title: "HEALTH" },
-  { img: "src/assets/images/s-5.jpg", title: "WORKOUT" },
-  { img: "src/assets/images/s-6.jpg", title: "STRATEGIES" }
+  { img: "/assets/images/s-1.jpg", title: "CROSSFIT TRAINING" },
+  { img: "/assets/images/s-2.jpg", title: "FITNESS" },
+  { img: "/assets/images/s-3.jpg", title: "DYNAMIC STRENGTH TRAINING" },
+  { img: "/assets/images/s-4.jpg", title: "HEALTH" },
+  { img: "/assets/images/s-5.jpg", title: "WORKOUT" },
+  { img: "/assets/images/s-6.jpg", title: "STRATEGIES" }
 ];
 
 const ServiceSection = () => {
