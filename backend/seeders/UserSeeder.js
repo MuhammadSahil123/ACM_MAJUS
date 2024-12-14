@@ -7,9 +7,9 @@ const users = [
   {
     _id: new mongoose.Types.ObjectId("60df6999e4b0c0c93408e2c1"),
     role: "60df6999e4b0c0c93408e2c4",
-    first_name: "John",
-    last_name: "Doe",
-    email: "johndoe@gmail.com",
+    first_name: "Muhammad Sahil",
+    last_name: "Shahid",
+    email: "sahil@gmail.com",
     password: "Dev@2020!",
     date_of_birth: new Date(),
     gender: "Male",
