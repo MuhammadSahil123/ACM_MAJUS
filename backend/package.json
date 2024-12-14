@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv-writer": "^1.6.0",
+    "express": "^4.21.2",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^7.2.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.8",
+    "http": "^0.0.1-security",
+    "inline-css": "^4.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1",
+    "stripe": "^17.4.0",
+    "useragent": "^2.3.0"
+  }
+}
